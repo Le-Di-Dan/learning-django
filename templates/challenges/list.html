@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>Challenges List {{ month }}</title>
+</head>
+<body>
+    <h1>Challenges List {{ month }}</h1>
+    <ul>
+        {% for challenge in challenges %}
+            <li>{{ challenge }}</li>
+        {% endfor %}
+    </ul>   
+</body>
+</html> 
